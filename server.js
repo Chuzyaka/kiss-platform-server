@@ -31,6 +31,9 @@ app.use('/api/memories', require('./routes/memories'));
 
 // Static files (must be after API routes)
 app.use(express.static(path.join(__dirname, '../public')));
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+});
 
 // Serve uploaded files with explicit path
 const uploadsPath = path.join(__dirname, 'public/uploads');
