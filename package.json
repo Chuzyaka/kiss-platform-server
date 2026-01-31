@@ -2,9 +2,9 @@
   "name": "kiss-platform",
   "version": "1.0.0",
   "description": "Romantic platform with gamification and internal currency",
-  "main": "server/server.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server.js"
   },
   "keywords": ["romantic", "platform", "gamification"],
   "author": "",
