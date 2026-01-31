@@ -1,0 +1,11 @@
+# Node.js
+node_modules/
+
+# Uploaded images
+public/uploads/
+
+# SQLite database
+db.sqlite
+
+# Environment variables
+.env
